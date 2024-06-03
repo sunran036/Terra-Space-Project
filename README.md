@@ -33,5 +33,7 @@ public class Player : MonoBehaviour
     }
 } //여기까지
 ```
+극초음속 버튼 완성  
+사용하면 5초동안 속도를 5배 증폭시킴  
 
 
