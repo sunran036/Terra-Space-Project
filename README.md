@@ -5,7 +5,7 @@
 플레이어한테 카메라가 따라다님
 
 ```
-using System.Collections;
+using System.Collections; //상하좌우로 이동할수 있게 해주는 코드입니다. 요기부터
 using System.Collections.Generic;
 using TreeEditor;
 using UnityEngine;
@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
         moveDirection = new Vector3(x, y, 0);
         transform.position += moveDirection * moveSpeed * Time.deltaTime;
     }
-}
+} //여기까지
 ```
 
 
